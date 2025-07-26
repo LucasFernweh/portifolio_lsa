@@ -1,38 +1,78 @@
-@media only screen and (max-width: 600px){
-    .ferramentas{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(205,92,92);
+@media screen and (max-width: 800px) {
+    .cabecalho .menu li a{
+        font-size: 12px;
+    }
+
+    .cabecalho .menu{
+        width: auto;
+        margin-right: 50px;
+    }
+
+    .logo_gato img {
+        width: 90px;
+        height: 90px;
+        position: relative;
+        right: 30px;
+        top: 30px;
+
+    }
+
+    .quem_sou{
+        display: block;
+        justify-content: center;
+    }
+
+
+  .ferramentas {
+    flex-direction: column;
+    height: auto;
+    gap: 40px;
+    padding: 40px 0;
+  }
+
+  .ferramentas div {
+    width: 150px;
     height: 150px;
-    scroll-margin-top: 160px;
-    gap: 100px;
-}
+  }
 
-.ferramentas div
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-}
+  .ferramentas img {
+    width: 140px;
+    height: 140px;
+  }
 
+  .ferramentas img:hover {
+    width: 160px;
+    height: 160px;
+  }
 
-.ferramentas img{
-    transition: all 1s ease-out;
-    opacity: 65%;
-    width: 40px;
-    height: 40px;
-}
+  .quem_sou {
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 20px;
+    text-align: center;
+  }
 
-.ferramentas img:hover{
-    opacity: 100%;
-    width: 55px;
-    height: 55px;
-    transform: scale(1.03);
-}
+  .minha_foto {
+    width: 50%;
+    height: 50%;
+  }
 
+  footer {
+    gap: 50px;
+    padding: 30px 0;
+    text-align: center;
+  }
 
+  .titulo_rodape {
+    font-size: 1.5rem;
+    padding: 20px 0;
+    text-align: center;
+    scroll-behavior: smooth;
+  }
 
+  h3 {
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+  }
 }

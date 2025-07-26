@@ -27,6 +27,8 @@ footer div h2{
 
 .titulo_rodape{
     text-align: center;
+    scrollbar-width: smooth;
+    scroll-margin-top: ;
 }
 
 hr{
