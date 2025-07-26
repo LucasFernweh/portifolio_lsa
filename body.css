@@ -6,6 +6,7 @@
 html, body{
     width: 100%;
     height: 100%;
+
     font-family: "Fira Code", monospace;
     font-weight: <weight>;
     font-style: normal;
@@ -15,6 +16,12 @@ html, body{
 
 html{
   scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 600px){
+    .ferramentas {
+        display: block;
+    }
 }
 
 body::before {
