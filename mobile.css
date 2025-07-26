@@ -1,6 +1,6 @@
 @media screen and (max-width: 800px) {
     .cabecalho .menu li a{
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .cabecalho .menu{
@@ -9,8 +9,8 @@
     }
 
     .logo_gato img {
-        width: 90px;
-        height: 90px;
+        width: 80px;
+        height: 80px;
         position: relative;
         right: 45px;
         top: 30px;
