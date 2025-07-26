@@ -1,0 +1,38 @@
+@media only screen and (max-width: 600px){
+    .ferramentas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(205,92,92);
+    height: 150px;
+    scroll-margin-top: 160px;
+    gap: 100px;
+}
+
+.ferramentas div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+
+.ferramentas img{
+    transition: all 1s ease-out;
+    opacity: 65%;
+    width: 40px;
+    height: 40px;
+}
+
+.ferramentas img:hover{
+    opacity: 100%;
+    width: 55px;
+    height: 55px;
+    transform: scale(1.03);
+}
+
+
+
+}
